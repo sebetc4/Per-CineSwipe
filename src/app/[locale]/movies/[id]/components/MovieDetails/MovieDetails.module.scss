@@ -1,0 +1,66 @@
+@import 'variables';
+
+.container {
+    padding: 4rem;
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+}
+
+.backgroundImage {
+    z-index: -2;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 5rem;
+
+    p,
+    h2,
+    h1 {
+        color: $color-white;
+    }
+
+    h1 span {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: $color-gray-1;
+    }
+
+    &__production {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    &__overview {
+        margin-top: .5rem;
+        font-size: 0.9rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    &__credits {
+        margin-top: .5rem;
+    }
+}

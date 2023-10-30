@@ -1,0 +1,17 @@
+@import 'variables';
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    flex: wrap;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+
+.genre {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: $color-primary;
+    color: $color-white;
+    font-weight: bold;
+}

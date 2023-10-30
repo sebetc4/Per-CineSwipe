@@ -1,0 +1,27 @@
+@import 'variables';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: $color-primary;
+    font-family: var(--font-roboto);
+    color: $color-white;
+
+    &__logoContainer svg {
+        width: 150px;
+    }
+
+    &__navContainer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 2rem;
+
+        ul {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

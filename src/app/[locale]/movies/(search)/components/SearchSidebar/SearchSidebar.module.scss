@@ -1,0 +1,19 @@
+@import 'variables';
+
+.container {
+    padding: 2rem;
+    max-width: 400px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+
+    h1 {
+        font-size: 1.6rem;
+        text-align: center;
+        span {
+            color: $color-secondary
+        }
+    }
+}
+
+.divider {
+    margin: 2rem 0;
+}

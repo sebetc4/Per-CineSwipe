@@ -1,0 +1,50 @@
+{
+  "name": "cine-swipe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.4.2",
+    "@hookform/resolvers": "^3.3.2",
+    "@prisma/client": "5.5.0",
+    "bcrypt": "^5.1.1",
+    "negotiator": "^0.6.3",
+    "next": "13.5.4",
+    "next-auth": "^4.24.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-icons": "^4.11.0",
+    "swiper": "^10.3.1",
+    "vitest-mock-extended": "^1.3.1",
+    "zod": "^3.22.4",
+    "zustand": "^4.4.4"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.5.1",
+    "@types/bcrypt": "^5.0.1",
+    "@types/negotiator": "^0.6.2",
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.5.4",
+    "jsdom": "^22.1.0",
+    "prisma": "^5.5.0",
+    "sass": "^1.69.3",
+    "server-only": "^0.0.1",
+    "typescript": "5.2.2",
+    "vite": "^4.4.11",
+    "vitest": "^0.34.6"
+  }
+}
